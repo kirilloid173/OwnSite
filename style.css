@@ -30,6 +30,12 @@ p.title-block {
     margin-top: 140px;
 }
 
+p.title-link-block {
+    text-align: center;
+    font-size: 26px;
+    color: #dcdbdb;
+}
+
 .bold-text {
     font-weight: bold;
 }
@@ -69,12 +75,10 @@ p.title-block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     border: 3px solid #ffffff;
     border-radius: 20px;
     padding: 16px;
     width: 365px;
-    height: 320px;
     text-align: left;
     position: relative;
 }
@@ -130,8 +134,38 @@ p.title-block {
     flex-direction: row;
     gap: 100px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card-skills {
     height: 330px;
+}
+
+p.card__title-facts {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p.card__desc-facts {
+    font-size: 24px;
+    width: 340px;
+}
+
+.text-link {
+    margin: auto;
+    font-size: 20px;
+    color: #dcdbdb;
+}
+
+.text-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p.title-block-with-link {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 140px;
 }
