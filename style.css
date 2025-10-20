@@ -23,6 +23,12 @@ body {
     color: white;
 }
 
+p.title-block {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
 .bold-text {
     font-weight: bold;
 }
@@ -33,6 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 85px;
+    margin-bottom: 140px;
 }
 
 .hero-section .hero-section__left-side {
@@ -58,9 +65,47 @@ body {
     height: auto;
 }
 
-.cases .cases__table {
+.cases {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+.cases .cases__flex {
     display: flex;
     flex-direction: row;
+    gap: 100px;
+}
+
+.cases .cases__table {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 16px;
+    width: 365px;
+    height: 380px;
+    text-align: left;
+}
+
+.cases .cases__table p.table__title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.cases .cases__table p.table__desc {
+    font-size: 24px;
+}
+
+.cases .cases__table button.table__button-learn-more {
+    background-color: #9638ba;
+    padding: 25px 68px;
+    border-radius: 20px;
+    font-size: 32px;
+    border: none;
+    color: #ffffff;
+    margin-top: auto;
 }
