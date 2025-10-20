@@ -30,12 +30,6 @@ p.title-block {
     margin-top: 140px;
 }
 
-p.title-link-block {
-    text-align: center;
-    font-size: 26px;
-    color: #dcdbdb;
-}
-
 .bold-text {
     font-weight: bold;
 }
@@ -110,7 +104,7 @@ p.title-link-block {
 }
 
 .card button.card__button-learn-more {
-    background-color: #9638ba;
+    background-color: #7626b3;
     padding: 25px 68px;
     border-radius: 20px;
     font-size: 32px;
@@ -168,4 +162,28 @@ p.title-block-with-link {
     font-size: 36px;
     margin-bottom: 20px;
     margin-top: 140px;
+}
+
+p.title-link-block {
+    text-align: center;
+    font-size: 26px;
+    color: #dcdbdb;
+    margin-bottom: 60px;
+}
+
+.contacts .contacts__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+
+.contacts .contacts__icons img {
+    width: 180px;
+    height: auto;
+}
+
+.contacts {
+    margin-bottom: 100px;
 }
