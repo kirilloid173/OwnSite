@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="MainLayer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141 135.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #467ece;
+        stroke: #467ece;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        fill: #363738;
+      }
+
+      .cls-2 {
+        fill: #78a4ea;
+        stroke: #78a4ea;
+      }
+    </style>
+  </defs>
+  <g id="BlockMount">
+    <rect class="cls-2" x="2.5" y="2.5" width="136" height="34.04" rx="10" ry="10"/>
+    <rect class="cls-3" x="15.18" y="14.24" width="90.34" height="11.93" rx="4" ry="4"/>
+    <ellipse class="cls-3" cx="121.91" cy="20.21" rx="6.44" ry="6.46"/>
+  </g>
+  <g id="BlockMount-2" data-name="BlockMount">
+    <rect class="cls-1" x="2.5" y="50.97" width="136" height="34.04" rx="10" ry="10"/>
+    <rect class="cls-3" x="15.18" y="62.71" width="90.34" height="11.93" rx="4" ry="4"/>
+    <ellipse class="cls-3" cx="121.91" cy="68.67" rx="6.44" ry="6.46"/>
+  </g>
+  <g id="BlockMount-3" data-name="BlockMount">
+    <rect class="cls-2" x="2.5" y="99.43" width="136" height="34.04" rx="10" ry="10"/>
+    <rect class="cls-3" x="15.18" y="111.17" width="90.34" height="11.93" rx="4" ry="4"/>
+    <ellipse class="cls-3" cx="121.91" cy="117.14" rx="6.44" ry="6.46"/>
+  </g>
+</svg>

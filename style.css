@@ -27,6 +27,7 @@ p.title-block {
     text-align: center;
     font-size: 36px;
     margin-bottom: 60px;
+    margin-top: 140px;
 }
 
 .bold-text {
@@ -39,7 +40,6 @@ p.title-block {
     align-items: center;
     justify-content: center;
     margin-top: 85px;
-    margin-bottom: 140px;
 }
 
 .hero-section .hero-section__left-side {
@@ -65,19 +65,7 @@ p.title-block {
     height: auto;
 }
 
-.cases {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 140px;
-}
-
-.cases .cases__flex {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-}
-
-.cases .cases__table {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,21 +74,38 @@ p.title-block {
     border-radius: 20px;
     padding: 16px;
     width: 365px;
-    height: 380px;
+    height: 320px;
     text-align: left;
+    position: relative;
 }
 
-.cases .cases__table p.table__title {
+.card p.card__title {
     font-size: 36px;
     text-align: center;
     margin-bottom: 12px;
+    margin-top: auto;
 }
 
-.cases .cases__table p.table__desc {
+.card p.card__desc {
     font-size: 24px;
+    height: 170px;
+    width: auto;
+    margin-top: auto;
 }
 
-.cases .cases__table button.table__button-learn-more {
+.card img.card__logo {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0%;
+    transform: translateY(-50%);
+}
+
+.card button.card__button-learn-more {
     background-color: #9638ba;
     padding: 25px 68px;
     border-radius: 20px;
@@ -108,4 +113,25 @@ p.title-block {
     border: none;
     color: #ffffff;
     margin-top: auto;
+}
+
+.mg-bt-120 {
+    margin-bottom: 120px !important;
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+.cards__flex {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.card-skills {
+    height: 330px;
 }
