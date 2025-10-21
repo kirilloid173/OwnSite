@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./Fonts/Inter_18pt-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.content-block {
+    width: 1440px;
+    margin: auto;
+}
+
+a {
+    all: unset;
+}
+
+body {
+    background: linear-gradient(180deg, #75389e, #4c1d6c);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+p.title-block {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+    margin-top: 140px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.hero-section .hero-section__left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section .hero-section__left-side h2 {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.hero-section .hero-section__left-side p {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.hero-section .hero-section__right-side img.hero-section__laptop-image {
+    width: 680px;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 16px;
+    width: 365px;
+    text-align: left;
+    position: relative;
+}
+
+.card p.card__title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.card p.card__desc {
+    font-size: 24px;
+    width: auto;
+}
+
+.card img.card__logo {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0%;
+    transform: translateY(-50%);
+}
+
+.card button.card__button-learn-more {
+    background-color: #7626b3;
+    padding: 25px 68px;
+    border-radius: 20px;
+    font-size: 32px;
+    border: none;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.card button.card__button-learn-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mg-bt-120 {
+    margin-bottom: 120px !important;
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+.cards__flex {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-skills {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.card__title-facts {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p.card__desc-facts {
+    font-size: 24px;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.text-link {
+    margin: auto;
+    font-size: 20px;
+    color: #dcdbdb;
+}
+
+.text-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p.title-block-with-link {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 140px;
+}
+
+p.title-link-block {
+    text-align: center;
+    font-size: 26px;
+    color: #dcdbdb;
+    margin-bottom: 60px;
+}
+
+p.title-link-block:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contacts .contacts__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+    flex-wrap: wrap;
+}
+
+.contacts .contacts__icons a:hover {
+    cursor: pointer;
+}
+
+.contacts .contacts__icons img {
+    width: 180px;
+    height: auto;
+}
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1440px) {
+    .content-block {
+        width: 90vw;
+    }
+
+    .hero-section .hero-section__right-side img.hero-section__laptop-image {
+        width: 50vw;
+        height: auto;
+    }
+
+    .contacts .contacts__icons {
+        gap: 150px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .hero-section .hero-section__right-side img.hero-section__laptop-image {
+        width: 30vw;
+        height: auto;
+    }
+    .content-block {
+        width: 85vw;
+    }
+    .contacts .contacts__icons {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-section .hero-section__right-side img.hero-section__laptop-image {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    p.card__desc-facts {
+        width: auto;
+    }
+    .card {
+        padding: 16px;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .card button.card__button-learn-more {
+        font-size: 32px;
+        padding: 16px 32px;
+    }
+    .card p.card__desc {
+        height: auto;
+    }
+
+    .card p.card__desc {
+        margin-bottom: 20px;
+    }
+
+    .card img.card__logo {
+        display: none;
+    }
+}
+
+@media (min-width: 760px) {
+    .tech-skills .tech-skills__desc {
+        width: 760px;
+    }
+}
+
+@media (max-width: 760px) {
+    .tech-skills .tech-skills__desc {
+        width: auto;
+    }
+}
+
+.tech-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-skills p.tech-skills__desc {
+    font-size: 32px;
+    text-align: center;
+}
