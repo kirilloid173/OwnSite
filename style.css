@@ -266,3 +266,27 @@ p.title-link-block:hover {
         margin-bottom: 20px;
     }
 }
+
+@media (min-width: 760px) {
+    .tech-skills .tech-skills__desc {
+        width: 760px;
+    }
+}
+
+@media (max-width: 760px) {
+    .tech-skills .tech-skills__desc {
+        width: auto;
+    }
+}
+
+.tech-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-skills p.tech-skills__desc {
+    font-size: 32px;
+    text-align: center;
+}
