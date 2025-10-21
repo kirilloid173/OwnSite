@@ -15,6 +15,10 @@
     margin: auto;
 }
 
+a {
+    all: unset;
+}
+
 body {
     background: linear-gradient(180deg, #75389e, #4c1d6c);
     background-repeat: no-repeat;
@@ -81,14 +85,11 @@ p.title-block {
     font-size: 36px;
     text-align: center;
     margin-bottom: 12px;
-    margin-top: auto;
 }
 
 .card p.card__desc {
     font-size: 24px;
-    height: 170px;
     width: auto;
-    margin-top: auto;
 }
 
 .card img.card__logo {
@@ -110,7 +111,12 @@ p.title-block {
     font-size: 32px;
     border: none;
     color: #ffffff;
-    margin-top: auto;
+    margin-top: 25px;
+}
+
+.card button.card__button-learn-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .mg-bt-120 {
@@ -132,18 +138,23 @@ p.title-block {
 }
 
 .card-skills {
-    height: 330px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 p.card__title-facts {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 p.card__desc-facts {
     font-size: 24px;
     width: 340px;
+    margin-bottom: 20px;
 }
 
 .text-link {
@@ -171,12 +182,22 @@ p.title-link-block {
     margin-bottom: 60px;
 }
 
+p.title-link-block:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .contacts .contacts__icons {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 350px;
+    flex-wrap: wrap;
+}
+
+.contacts .contacts__icons a:hover {
+    cursor: pointer;
 }
 
 .contacts .contacts__icons img {
@@ -186,4 +207,62 @@ p.title-link-block {
 
 .contacts {
     margin-bottom: 100px;
+}
+
+@media (max-width: 1440px) {
+    .content-block {
+        width: 90vw;
+    }
+
+    .hero-section .hero-section__right-side img.hero-section__laptop-image {
+        width: 50vw;
+        height: auto;
+    }
+
+    .contacts .contacts__icons {
+        gap: 150px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .hero-section .hero-section__right-side img.hero-section__laptop-image {
+        width: 30vw;
+        height: auto;
+    }
+    .content-block {
+        width: 85vw;
+    }
+    .contacts .contacts__icons {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-section .hero-section__right-side img.hero-section__laptop-image {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    p.card__desc-facts {
+        width: auto;
+    }
+    .card {
+        padding: 16px;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .card button.card__button-learn-more {
+        font-size: 32px;
+        padding: 16px 32px;
+    }
+    .card p.card__desc {
+        height: auto;
+    }
+
+    .card p.card__desc {
+        margin-bottom: 20px;
+    }
 }
