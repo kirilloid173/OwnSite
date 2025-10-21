@@ -294,3 +294,34 @@ p.title-link-block:hover {
     font-size: 32px;
     text-align: center;
 }
+
+.center-block-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-block-presentation button {
+    background-color: #7626b3;
+    padding: 25px 68px;
+    border-radius: 20px;
+    font-size: 32px;
+    border: none;
+    color: #ffffff;
+}
+
+.center-block-presentation button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.center-block-presentation button {
+    margin-top: 50px;
+}
