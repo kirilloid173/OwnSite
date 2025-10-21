@@ -301,11 +301,26 @@ p.title-link-block:hover {
     align-items: center;
     justify-content: center;
     width: 100vw;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+@media (max-width: 670px) {
+    .center-block-presentation {
+        margin: 25px 0;
+    }
+
+    .center-block-presentation a:last-child {
+        margin-bottom: 25px;
+    }
+
+    .center-block-presentation button {
+        margin: 0 25px;
+    }
 }
 
 .center-block-presentation button {
